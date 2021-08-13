@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Regular.ttf') format('truetype');
+} @font-face {
+    font-family: 'Bebas';
+    src: url('./BebasNeue-Regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: no-repeat center/cover url('./images/foodbg.jpg');
+    backdrop-filter: blur(6px);
+    background-color: #420039;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+p, h3 {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #FF570A;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover,
+a:focus {
+    color: white;
+}
+
+img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    text-align: center;
+    background-color: #FF570A;
+    color: white;
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Containers */
+
+#content {
+    height: 100vh;
+}   
+
+#header {
+    /* background-color:rgba(215, 38, 56, 0.7); */
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title {
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    font-family: 'Bebas';
+    font-size: 50px;
+    text-align: center;
+    line-height: 10px;
+    width: 100%;
+}
+
+.sample {
+    width: 50%;
+    margin: 60px auto 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.about-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #FF570A;
+    padding: 15px;
+    margin: 0;
+}
+
+.item {
+    width: 400px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+
+/* Nav */
+.nav {
+    background-color: #420039;
+    padding: 10px;
+    width: 50%;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
