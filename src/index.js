@@ -9,6 +9,7 @@ import burger2 from './images/burger2.jpg'
 import wrap from './images/wrap.jpg'
 
 const images = [burger1, burger2, wrap];
+const menuItems = ['Quinoa Burger', 'Blackbean Burger', 'Avocado Wrap']
 
 const root = initPage();
 renderAbout(root);
@@ -23,7 +24,7 @@ const bindEvents = ((root) => {
         renderAbout(root)
     })
     menu.addEventListener('click', () => {
-        renderMenu(root, images)
+        renderMenu(root, images, menuItems)
     })
     contact.addEventListener('click', () => {
         renderContact(root)

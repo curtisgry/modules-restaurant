@@ -1,6 +1,7 @@
 const initPage = () => {
     const body = document.querySelector('body')
     const root = document.createElement('div');
+    const footer = document.createElement('footer');
     root.id = 'content'
     body.appendChild(root)
     const sample = document.createElement('section');
@@ -20,8 +21,14 @@ const initPage = () => {
                 </ul>
             </nav>
     `;
+
+    footer.innerHTML = `
+        <div class-"footer-info">Developed by Curtis Gray</div>
+    `
+
     root.appendChild(header)
     root.appendChild(sample)
+    body.appendChild(footer)
     return { root, sample, header };
 }
 

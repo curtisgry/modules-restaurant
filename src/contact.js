@@ -4,7 +4,7 @@ const renderContact = (root) => {
     // contact.classList.add('item')
     contact.innerHTML = `
                 <div class="about-div">
-                    <h3>Talk to us!</h3>
+                    <h2>Talk to us!</h2>
                     <p class="contact">contact@vega.com</p>
                     <p class="contact">555-555-5555</p>
                 </div>

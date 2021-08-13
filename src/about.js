@@ -4,7 +4,7 @@ const renderAbout = (root) => {
     about.classList.add('item')
     about.innerHTML = `
                 <div class="about-div">
-                    <h2>Food food food!</h2>
+                    <h2>Its all plants!</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                     Reiciendis, similique doloribus facere magnam fuga iste ratione 
                     nisi mollitia totam praesentium accusamus eaque cum, ullam ipsam 
